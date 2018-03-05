@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import operator
-
+import readline
 
 operators = {
     '+': operator.add,
@@ -10,6 +10,9 @@ operators = {
     '/': operator.truediv,
     '^': operator.pow,
 }
+
+def funcNoPurpose():
+    print('potatobot')
 
 def calculate(myarg):
     stack = list()
